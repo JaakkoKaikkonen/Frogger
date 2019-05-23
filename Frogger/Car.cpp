@@ -23,11 +23,6 @@ namespace Game {
 	}
 
 
-	Car::~Car()
-	{
-	}
-
-
 	void Car::move() {
 		if (Dir::Right == _dir) {
 			_car.move(_speed, 0.0f);

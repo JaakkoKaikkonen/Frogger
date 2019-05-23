@@ -10,10 +10,6 @@ namespace Game {
 		_turtle.setPosition((float)x, (float)y);
 	}
 
-	Turtle::~Turtle()
-	{
-	}
-
 
 	void Turtle::move() {
 

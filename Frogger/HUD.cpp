@@ -45,9 +45,6 @@ namespace Game {
 
 	}
 
-	HUD::~HUD()
-	{
-	}
 
 	void HUD::drawScore() {
 		_score.setOrigin(_score.getGlobalBounds().width, 0.0f);

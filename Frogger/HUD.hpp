@@ -9,7 +9,6 @@ namespace Game {
 	{
 	public:
 		HUD(gameDataRef data);
-		~HUD();
 
 		void drawScore();
 

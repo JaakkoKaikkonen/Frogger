@@ -12,7 +12,6 @@ namespace Game {
 	{
 	public:
 		Frog(gameDataRef data, HUD& hud);
-		~Frog();
 
 		void move(Dir dir);
 

@@ -13,11 +13,6 @@ namespace Game {
 	}
 
 
-	Frog::~Frog()
-	{
-	}
-
-
 	void Frog::move(Dir dir) {
 
 		if (_jumpTimer.getElapsedTime().asSeconds() > 0.2f) {

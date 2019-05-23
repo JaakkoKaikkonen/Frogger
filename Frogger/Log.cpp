@@ -15,11 +15,6 @@ namespace Game {
 	}
 
 
-	Log::~Log()
-	{
-	}
-
-
 	void Log::move() {
 		_log.move(_speed, 0.0f);
 

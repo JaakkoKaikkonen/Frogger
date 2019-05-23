@@ -11,7 +11,6 @@ namespace Game {
 	{
 	public:
 		Turtle(gameDataRef data, const int& x, const int& y);
-		~Turtle();
 
 		void move();
 

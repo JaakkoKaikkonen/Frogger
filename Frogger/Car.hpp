@@ -10,7 +10,6 @@ namespace Game {
 	{
 	public:
 		Car(gameDataRef data, sf::IntRect textureRect, const int& x, const int& y);
-		~Car();
 
 		void move();
 

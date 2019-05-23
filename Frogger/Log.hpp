@@ -10,7 +10,6 @@ namespace Game {
 	{
 	public:
 		Log(gameDataRef data, sf::IntRect textureRect, const int& x, const int& y);
-		~Log();
 
 		void move();
 
