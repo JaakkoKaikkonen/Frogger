@@ -7,7 +7,7 @@
 
 
 
-namespace engine {
+namespace Game {
 
 	GameState::GameState(gameDataRef data)
 		: _data(data), _topBackground(sf::Vector2f(SCREEN_WIDTH, 9 * TILE_SIZE)), _hud(data), _frog(data, _hud)

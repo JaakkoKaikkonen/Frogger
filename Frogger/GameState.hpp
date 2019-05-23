@@ -14,7 +14,7 @@
 #include <string>
 
 
-namespace engine {
+namespace Game {
 
 	class GameState : public State
 	{

@@ -6,15 +6,14 @@
 #include <SFML/Audio.hpp>
 #include "StateMachine.hpp"
 #include "AssetManager.hpp"
-#include "InputManager.hpp"
 
-namespace engine {
+
+namespace Game {
 
 	struct GameData {
 		StateMachine machine;
 		sf::RenderWindow window;
 		AssetManager assets;
-		InputManager input;
 		sf::Music music;
 	};
 

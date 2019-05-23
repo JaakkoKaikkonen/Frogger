@@ -1,6 +1,6 @@
 #include "Turtle.hpp"
 
-namespace engine {
+namespace Game {
 
 	Turtle::Turtle(gameDataRef data, const int& x, const int& y)
 		: _data(data), _turtle(_data->assets.getTexture("Turtle"), TURTLE_01), _swimAnimation(&_turtle, _swimAnimationFrames, 0.75f)

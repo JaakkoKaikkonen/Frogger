@@ -1,7 +1,7 @@
 #include "Frog.hpp"
 #include <iostream>
 
-namespace engine {
+namespace Game {
 
 	Frog::Frog(gameDataRef data, HUD& hud)
 		: _data(data), _hud(hud), _frog(_data->assets.getTexture("Frog"), FROG_IDLE), 

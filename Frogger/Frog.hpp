@@ -6,7 +6,7 @@
 #include "Animation.hpp"
 #include "HUD.hpp"
 
-namespace engine {
+namespace Game {
 
 	class Frog
 	{

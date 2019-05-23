@@ -1,6 +1,6 @@
 #include "Log.hpp"
 
-namespace engine {
+namespace Game {
 
 	Log::Log(gameDataRef data, sf::IntRect textureRect, const int& x, const int& y)
 		: _data(data), _log(_data->assets.getTexture("Logs"), textureRect)

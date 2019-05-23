@@ -144,7 +144,6 @@
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="GameState.cpp" />
     <ClCompile Include="HUD.cpp" />
-    <ClCompile Include="InputManager.cpp" />
     <ClCompile Include="Log.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="StateMachine.cpp" />
@@ -161,7 +160,6 @@
     <ClInclude Include="Game.hpp" />
     <ClInclude Include="GameState.hpp" />
     <ClInclude Include="HUD.hpp" />
-    <ClInclude Include="InputManager.hpp" />
     <ClInclude Include="Log.hpp" />
     <ClInclude Include="State.hpp" />
     <ClInclude Include="StateMachine.hpp" />
