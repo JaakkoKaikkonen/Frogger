@@ -144,7 +144,7 @@ namespace Game {
 
 	}
 
-	void GameState::update(float dt) {
+	void GameState::update() {
 
 		_frogIsColliding = false;
 
@@ -284,7 +284,7 @@ namespace Game {
 
 	}
 
-	void GameState::draw(float interpolation) {
+	void GameState::draw() {
 
 		_data->window.clear();
 
