@@ -146,7 +146,6 @@
     <ClCompile Include="HUD.cpp" />
     <ClCompile Include="Log.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="StateMachine.cpp" />
     <ClCompile Include="Turtle.cpp" />
     <ClCompile Include="Utility.cpp" />
   </ItemGroup>
@@ -162,7 +161,6 @@
     <ClInclude Include="HUD.hpp" />
     <ClInclude Include="Log.hpp" />
     <ClInclude Include="State.hpp" />
-    <ClInclude Include="StateMachine.hpp" />
     <ClInclude Include="Turtle.hpp" />
     <ClInclude Include="Utility.hpp" />
   </ItemGroup>

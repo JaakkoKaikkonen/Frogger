@@ -6,24 +6,24 @@ namespace Game {
 		sf::Texture tex;
 
 		if (tex.loadFromFile(fileName)) {
-			this->_textures[name] = tex;
+			_textures[name] = tex;
 		}
 	}
 
 	sf::Texture& AssetManager::getTexture(std::string name) {
-		return this->_textures.at(name);
+		return _textures.at(name);
 	}
 
 	void AssetManager::loadFont(std::string name, std::string fileName) {
 		sf::Font font;
 
 		if (font.loadFromFile(fileName)) {
-			this->_fonts[name] = font;
+			_fonts[name] = font;
 		}
 	}
 
 	sf::Font& AssetManager::getFont(std::string name) {
-		return this->_fonts.at(name);
+		return _fonts.at(name);
 	}
 
 	void AssetManager::loadSound(std::string name, std::string fileName) {
@@ -36,7 +36,7 @@ namespace Game {
 	}
 
 	sf::Sound& AssetManager::getSound(std::string name) {
-		return this->_sounds.at(name);
+		return _sounds.at(name);
 	}
 
 }
